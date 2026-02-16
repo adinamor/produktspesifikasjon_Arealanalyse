@@ -48,7 +48,7 @@
     "supplementalInformation": "Grunnkartet kan lastes ned kommunevis for Norge digitalt-parter. WMS-tjenesten er åpen og kan benyttes for innsyn av alle.\n\nVi vil veldig gjerne høre hva du mener om Testversjon 2 av Grunnkartet - send oss gjerne en e-post. \nAlle samarbeidspartene i prosjektet kan kontaktes ved tilbakemeldinger og/eller spørsmål. \n\nFor generelle spørsmål og spørsmål til metode: gisdrift@nibio.no\n\nFor spørsmål knyttet til Arealbruk: margrete.steinnes@ssb.no\n\nFor spørsmål knyttet til Arealdekke: gisdrift@nibio.no\n\nFor spørsmål knyttet til Økosystemtype: ellen.arneberg@miljodir.no"
   },
   "scope": {
-    "level": "dataset",
+    "level": "#### filnedlastning\n<beskrivelse>",
     "extent": {
       "temporal": {
         "interval": [
