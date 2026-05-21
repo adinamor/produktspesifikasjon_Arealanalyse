@@ -5,7 +5,7 @@
     "attributes": [
       {
         "name": "område",
-        "type": "GM_MultiSurface",
+        "type": "GM_Surface",
         "description": "den geografiske avgrensingen av Grunnkartflaten",
         "cardinality": "1"
       },
@@ -100,7 +100,7 @@
         }
       },
       {
-        "name": "areabrukLandKode",
+        "name": "arealbrukLandKode",
         "type": "ArealbrukLandKode",
         "cardinality": "1",
         "valueDomain": {
@@ -136,7 +136,7 @@
         "valueDomain": {
           "definition": "Økosystemklasse nivå 1 har 12 klasser, og deler kartet inn i hovedøkosystemer etter europeisk arealtypologi utviklet spesielt til bruk i naturregnskap (Eurostat)",
           "asDictionary": "true",
-          "codeList": "https://register.geonorge.no/sosi-kodelister/temadata/grunnkart-arealanalyse/okosystemtype1"
+          "codeList": "https://register.geonorge.no/sosi-kodelister/temadata/grunnkart-arealanalyse/okosystemtypeniva1"
         }
       },
       {
@@ -146,7 +146,7 @@
         "valueDomain": {
           "definition": "Økosystemklasse nivå 2 gir en videre inndeling av de 12 klassene i nivå 1. Inndelingen følger europeisk arealtypologi utviklet spesielt til bruk i naturregnskap (Eurostat)",
           "asDictionary": "true",
-          "codeList": "https://register.geonorge.no/sosi-kodelister/temadata/grunnkart-arealanalyse/okosystemtype2"
+          "codeList": "https://register.geonorge.no/sosi-kodelister/temadata/grunnkart-arealanalyse/okosystemtypeniva2"
         }
       },
       {
@@ -156,7 +156,7 @@
         "valueDomain": {
           "definition": "Økosystemklasse nivå 3 gir en videre inndeling av økosystemklasse 1 og 2. Inndelingen følger europeisk arealtypologi utviklet spesielt til bruk i naturregnskap (Eurostat)",
           "asDictionary": "true",
-          "codeList": "https://register.geonorge.no/sosi-kodelister/temadata/grunnkart-arealanalyse/okosystemtype3"
+          "codeList": "https://register.geonorge.no/sosi-kodelister/temadata/grunnkart-arealanalyse/okosystemtypeniva3"
         }
       },
       {
@@ -229,13 +229,14 @@
         "name": "oppdateringsdato",
         "type": "DateTime",
         "description": "tidspunkt for siste endring på objektet\n\nMerknad:\nOppdateringsdato kan være forskjellig fra datafangsdato ved at data som er registrert kan bufres en kortere eller lengre periode før disse legges inn i datasystemet (databasen).",
-        "cardinality": "1"
+        "cardinality": "0..1"
       }
     ],
     "abstract": false,
     "relationships": {
       "inheritance": [],
       "associations": []
-    }
+    },
+    "package": "NasjonaltGrunnkartForArealanalyse-1.0"
   }
 ]
